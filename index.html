@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6a79530112.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div class="navbar-fixed">
+      <nav class="z-depth-0" id="home">
+        <div class="nav-wrapper white">
+          <div class="container">
+            <a href="#!" class="hide-on-large-only"
+              ><img src="my_logo.png" alt="" srcset="" height="26px"
+            /></a>
+            <a href="#!" class="brand-logo hide-on-med-and-down"
+              ><img src="my_logo.png" alt="" srcset="" height="26px"
+            /></a>
+            <a
+              href="#"
+              data-target="mobile-demo"
+              class="right sidenav-trigger deep-purple-text accent-2"
+              ><i class="material-icons" style="font-size: 35px">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home" class="black-text">Home</a></li>
+              <li><a href="#skills" class="black-text">About me</a></li>
+              <li>
+                <a href="#certifications" class="black-text">Certifications</a>
+              </li>
+              <li><a href="#contactme" class="black-text">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- hamburger bar -->
+    <ul class="sidenav deep-purple accent-2" id="mobile-demo">
+      <li><a href="#home" class="white-text">Home</a></li>
+      <li><a href="#skills" class="white-text">About me</a></li>
+      <li><a href="#certifications" class="white-text">Certifications</a></li>
+      <li><a href="#contactme" class="white-text">Contacts</a></li>
+    </ul>
+    <!-- home page -->
+    <div class="container">
+      <div class="row landing-page">
+        <div class="col s12 m8 l7 heading-page">
+          <p class="heading-text">
+            <span class="hi"
+              >Hi, I'm
+              <span class="bold-text deep-purple-text accent-2"
+                >Jan Eleven</span
+              >
+            </span>
+            <br />
+            <span class="aspiring"
+              >an aspiring
+              <span class="bold-text deep-purple-text accent-2"
+                >Web Developer.</span
+              >
+            </span>
+          </p>
+          <p class="desc-text">
+            I’m a 3rd-year student of P.U.P ITech, I’m still a beginner in Web
+            Development and I'm motivated to learn the modern way of developing
+            Web Apps. I'm prepared to face the challenges that I will encounter
+            in this profession to be a successful Web Developer in the future.
+          </p>
+          <a
+            class="
+              waves-effect waves-light
+              btn-large
+              deep-purple
+              accent-2
+              btn-checkmeout
+            "
+            href="#skills"
+            ><i class="material-icons right">keyboard_arrow_down</i>Check me
+            out!</a
+          >
+        </div>
+        <div class="col s0 m4 l5">
+          <img
+            class="responsive-img hide-on-small-only"
+            src="landing_pic1.png"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- skills -->
+    <h4 class="page-title center-align" id="skills">My Skills</h4>
+    <p class="center-align desc-text">
+      Here are my skills that I’ve developed through my college year.
+    </p>
+    <div class="container skills-container">
+      <img class="responsive-img" src="myskills.png" />
+      <div class="row skills-dev">
+        <div class="col s0 m1 l1"></div>
+        <div class="col s12 m5 l5 webdev">
+          <img class="responsive-img webdev-img" src="webdev_pic.png" />
+          <h5 class="skill-title center-align">Web Development</h5>
+          <p class="center-align desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+            lacus non mi luctus condimentum.
+          </p>
+        </div>
+        <div class="col s12 m5 l5 mobdev">
+          <img class="responsive-img mobdev-img" src="mobdev_pic.png" />
+          <h5 class="skill-title center-align">Mobile Development</h5>
+          <p class="center-align desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+            lacus non mi luctus condimentum.
+          </p>
+        </div>
+        <div class="col s0 m1 l1"></div>
+      </div>
+    </div>
+    <!-- my certifications -->
+    <h4 class="page-title center-align" id="certifications">
+      My Certifications
+    </h4>
+    <p class="center-align desc-text">
+      Certifications of <span class="light-purple-text"> Webinars </span>and
+      <span class="light-purple-text"> Trainings</span> that I’ve attended.
+    </p>
+    <h5 class="skill-title center-align">Webinars</h5>
+    <div class="container" style="margin-bottom: 50px">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item white white-text" href="#one!">
+          <img src="carousel/w1.png" class="responsive-img" alt="" />
+        </div>
+        <div class="carousel-item white white-text" href="#two!">
+          <img src="carousel/w2.png" class="responsive-img" alt="" />
+        </div>
+        <div class="carousel-item white white-text" href="#three!">
+          <img src="carousel/w3.png" class="responsive-img" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <h5 class="skill-title center-align" id="trainings">Trainings</h5>
+    <div class="container">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item white white-text" href="#one!">
+          <img src="carousel/t1.png" class="responsive-img" alt="" />
+        </div>
+        <div class="carousel-item white white-text" href="#two!">
+          <img src="carousel/t2.png" class="responsive-img" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- contacts -->
+    <h4 class="page-title center-align" id="contactme">Contact Me</h4>
+    <p class="center-align desc-text">
+      Reach me out using my contact address and social media accounts!
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s0 m1 l1"></div>
+        <div class="col s12 m5 l5">
+          <div class="marker-container">
+            <i class="material-icons medium deep-purple-text accent-2">call</i>
+            <p class="desc-text">09499443203</p>
+          </div>
+        </div>
+        <div class="col s12 m5 l5">
+          <div class="marker-container">
+            <i class="fas fa-map-marker medium deep-purple-text accent-2"></i>
+            <p class="desc-text">Malanday, Marikina City</p>
+          </div>
+        </div>
+        <div class="col s0 m1 l1"></div>
+      </div>
+      <div class="row">
+        <div class="col s2 m2 l2"></div>
+        <div class="col s2 m2 l2">
+          <div class="marker-container">
+            <a
+              href="https://www.facebook.com/janeleven.salvador/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook deep-purple-text accent-2 small"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col s2 m2 l2">
+          <div class="marker-container">
+            <a
+              href="https://www.linkedin.com/in/janeleven-salvador-7b7b5a205/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin deep-purple-text accent-2 small"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col s2 m2 l2">
+          <div class="marker-container">
+            <a href="https://github.com/jan11eleven" target="_blank">
+              <i class="fab fa-github deep-purple-text accent-2 small"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col s2 m2 l2">
+          <div class="marker-container">
+            <a
+              href="https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=app"
+              target="_blank"
+            >
+              <i class="fab fa-google deep-purple-text accent-2 small"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col s2 m2 l2"></div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
