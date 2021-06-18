@@ -83,6 +83,9 @@ body {
   margin-bottom: 20px;
 }
 /* certifications */
+.cert-img {
+  min-height: 100%;
+}
 
 /* contacts */
 .marker-container {
