@@ -14,12 +14,6 @@ body {
 }
 
 /* landing page */
-.my_logo {
-  margin-top: 10px;
-  margin-left: 10px;
-  font-family: "Fredoka One", cursive;
-}
-
 .landing-page {
   height: calc(100vh - 84px);
   display: flex;
@@ -81,9 +75,6 @@ body {
   margin-bottom: 20px;
 }
 /* certifications */
-.cert-img {
-  min-height: 100%;
-}
 
 /* contacts */
 .marker-container {
